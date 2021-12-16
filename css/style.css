@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	background-color: #F0F0F0;
+}
+
+.login-div {
+	width: 350px;
+	padding: 15px;
+	height: 600px;
+	background-color: #FFFFFF;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid #3333;
+	box-shadow: 0px 0px 3px 3px #3331;
+}
+
+.freelancer-logo {
+	margin: auto;
+	margin-top: 30px;
+	width: 60%;
+}
+
+.freelancer-logo img {
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #000;
+	margin-top: 15px;
+}
+
+.facebook-add {
+	width: 90%;
+	padding: 12px 10px;
+	margin: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	background-color: #4267B2;
+	cursor: pointer;
+}
+
+.facebook-add p {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+}
+
+.or-line {
+	position: relative;
+	font-size: 14px;
+	font-weight: 600;
+	clip: #333;
+	text-align: center;
+	padding: 20px; 
+}
+
+.or-line:before {
+	width: 40%;
+	height: 2px;
+	background-color: #3333;
+	position: absolute;
+	content: '';
+	left: 25%;
+	top: 50%;
+	transform: translateX(-50%);
+}
+
+.or-line:after {
+	width: 40%;
+	height: 2px;
+	background-color: #3333;
+	position: absolute;
+	content: '';
+	right: -15%;
+	top: 50%;
+	transform: translateX(-50%);
+}
+
+
+.input-div {
+	width: 90%;
+	margin: auto;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+}
+.input-div input {
+	width: 100%;
+	padding: 13px;
+	font-size: 16px;
+	color: #333;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #3333;
+}
+
+.checkbox-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 5px;
+}
+
+.checkbox-div div input {
+	width: 18px;
+	height: 18px;
+	margin-left: 17px;
+	display: inline-flex;
+	cursor: pointer;
+}
+
+.checkbox-div div h6 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+	cursor: pointer;
+	display: inline-flex;
+	transform: translate(0px, -3px);
+}
+
+.checkbox-div div a {
+	text-align: right;
+	font-size: 16px;
+	text-decoration: none;
+	color: #4267B2;
+}
+.checkbox-div div a p {
+	margin-right: 17px;
+}
+
+.checkbox-div div a:hover {
+	text-decoration: underline;
+	color: #139FF0;
+}
+
+
+button {
+	width: 90%;
+	padding: 11px;
+	background-color: #139FF0;
+	font-size: 20px;
+	color: #fff;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.btn-div {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.line-dage {
+	width: 90%;
+	height: 1px;
+	background-color: #3332;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.sign-text {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 20px;
+	color: #000;
+}
+
+.sign-text a {
+	text-decoration: none;
+	color: #139FF0;
+}
+
+.sign-text a:hover {
+	color: #4267B2;
+	text-decoration: underline;
+}
+
+.app-download {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 15px;
+}
+.app-download div img {
+	width: 100%;
+}
+.apple-img {
+	margin-top: 5px;
+}
